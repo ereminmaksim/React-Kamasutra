@@ -1,10 +1,11 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 // ниже компоненты!!!
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Profile from "./components/Profile";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import MyPosts from "./components/Profile/Profile";
 
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
         <div className="app_wrapper">
             <Header />
             <Navbar />
-            <Profile />
+            <MyPosts />
         </div>
     );
 }

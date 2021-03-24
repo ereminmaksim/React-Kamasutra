@@ -1,3 +1,9 @@
+body {
+    background: url("https://get.wallhere.com/photo/reactJS-JavaScript-Typescript-programming-programming-language-React-Native-Facebook-react-apps-Front-End-developer-1568827.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
 .app_wrapper {
     display: grid;
     width: 1200px;
@@ -10,26 +16,3 @@
     grid-template-column: 2fr 10fr;
 }
 
-.header {
-    grid-area: h;
-    background-color: aqua;
-}
-
-.header img {
-    width: 50px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: gold;
-}
-
-.content {
-    grid-area: c;
-    background-color: mediumslateblue;
-}
-
-.content img {
-    width: 920px;
-    height: 510px;
-}
