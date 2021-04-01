@@ -1,17 +1,19 @@
 import React from 'react';
 import style from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 
-const Profile = () => {
-    return <div className={style.content}>
-        <div>
-            <img src='https://img2.fonwall.ru/o/ro/clouds-fog-forest-landscape.jpeg'/>
+const Profile = (props) => {
+
+
+    return (
+        <div className={style.content}>
+            <ProfileInfo/>
+
+            <MyPosts postData={props.postData}/>
         </div>
-        <div>ava + post</div>
-        <MyPosts />
-    </div>
-
+    )
 }
 
 export default Profile;

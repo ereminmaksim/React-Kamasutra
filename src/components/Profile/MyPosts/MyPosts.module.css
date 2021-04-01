@@ -1,7 +1,10 @@
-.posts{
-    color: white;
-}
+.myBlock {
+    padding: 10px;
 
-.item{
-    color: white;
+}
+.title {
+    margin: 0;
+}
+.posts {
+    margin-top: 5px;
 }

@@ -5,14 +5,21 @@ body {
 }
 
 .app_wrapper {
+    margin: 0 auto;
     display: grid;
     width: 1200px;
-    margin: 0 auto;
-
     grid-template-areas:
     'h h'
     'n c';
+
+
     grid-auto-rows: 60px 1fr;
     grid-template-column: 2fr 10fr;
 }
 
+.app-wrapper-content {
+
+    grid-area: c;
+    background-color: mediumslateblue;
+
+}
