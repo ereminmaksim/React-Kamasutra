@@ -10,27 +10,34 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import Music from "./components/Music/Music";
 import News from "./components/News/News";
 import Settings from "./components/Settings/Settings";
+import {updatePost} from "./Redux/State";
+
 
 
 const App = (props) => {
 
-
+debugger
     return (
-        <BrowserRouter>
             <div className="app_wrapper">
-                <Header/>
-                <Navbar/>
+                <Header />
+                <Navbar />
                 <div className="app-wrapper-content">
+
                     <Route path="/dialogs"
-                           render={() => <Dialogs dialogItem={props.dialogItem} messagesDate={props.messagesDate}/>}/>
-                    {/*<Route path="/profile" component={Profile} />*/}
-                    <Route path="/profile" render={() => <Profile postData={props.postData}/>}/>
-                    <Route path="/music" component={Music}/>
+                           render={() => <Dialogs state={props.state.dialogsPage}/>}/>
+
+                    <Route path="/profile"
+                           render={() => <Profile
+                               profilePage={props.state.profilePage}
+                               addPost={props.addPost}
+                               delPost={props.delPost}
+                               updatePost={ props.updatePost }/>}/>
+
+                    <Route path="/music" component={Music} />
                     <Route path="/news" component={News}/>
                     <Route path="/settings" component={Settings}/>
                 </div>
             </div>
-        </BrowserRouter>
     );
 }
 

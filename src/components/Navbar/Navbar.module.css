@@ -42,5 +42,9 @@
     min-width: 50%;
     background: grey;
 }
+.itemFriends {
+    padding-top: 20px;
+    font-size: 30px;
+}
 
 

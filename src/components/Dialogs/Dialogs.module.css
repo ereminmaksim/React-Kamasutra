@@ -1,7 +1,7 @@
 /*ОБЩЕЕ ПОВЕДЕНИЕ*/
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 2fr 5fr;
     width: 1000px;
 }
 
@@ -29,27 +29,46 @@
     color: white;
 }
 
-.dialog {
-    padding: 10px;
+.dialogs_items img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-/*ЧТО Я ПИШУ?*/
+.dialog {
+   padding: 10px;
+}
+
+/*ЧТО Я ПИШУ*/
 .messages {
     padding: 10px;
-    color: white;
+    color: black;
+    margin-top: 17px;
 }
+
 .message  {
-    padding: 10px;
+    padding: 11px;
     text-decoration: none;
+    margin-top: 32px;
 
 }
 
+.container {
+    border: 3px solid #dedede;
+    background-color: #6eb0f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
 
-
-
-
-
-
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #f7eeee;
+}
+/**
+СТИЛИ ДЛЯ НАРМАЛЬНОГО ОТОБРАЖЕНИЯ СООБЩЕНИЙ В DIALOGS!!!
+ */
 
 
 /*ПРОБНИК*/
@@ -64,7 +83,7 @@
 /*}*/
 /*.me{*/
 /*    background: #e4eaee;*/
-/*    left: 2.5px;*/
+/*    left: 3px;*/
 /*}*/
 
 /*.name{*/
