@@ -1,0 +1,50 @@
+/*ОБВЯЗКА*/
+.nav {
+    grid-area: n;
+    background-color: gold;
+    padding: 15px;
+}
+
+/*ССЫЛКИ*/
+.item a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    transition: .3s ease-in-out;
+    color: white;
+}
+
+.item {
+    color: #34495e;
+    line-height: 1.2;
+    position: relative;
+    padding: 0 14px;
+    text-transform: uppercase;
+}
+.item a:after {
+    content: "";
+    height: 100%;
+    min-width: 4px;
+    background: #34495e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+.item a:hover:after {
+    min-width: 100%;
+    background: grey;
+    opacity: .35;
+}
+.item a:focus {
+    min-width: 50%;
+    background: grey;
+}
+.itemFriends {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
