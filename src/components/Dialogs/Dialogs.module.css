@@ -1,0 +1,127 @@
+/*ОБЩЕЕ ПОВЕДЕНИЕ*/
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    width: 1000px;
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 50%;
+}
+
+
+/*С КЕМ?*/
+.dialogs_items{
+    padding: 10px;
+
+}
+.dialogs_items a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.dialogs_items .active {
+    color: gold;
+}
+.dialogs_items a:hover {
+    color: white;
+}
+
+.dialogs_items img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dialog {
+   padding: 10px;
+}
+
+/*ЧТО Я ПИШУ*/
+.messages {
+    padding: 10px;
+    color: black;
+    margin-top: 17px;
+}
+
+.message  {
+    padding: 11px;
+    text-decoration: none;
+    margin-top: 32px;
+
+}
+
+.container {
+    border: 3px solid #dedede;
+    background-color: #6eb0f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #f7eeee;
+}
+.wrapper{
+    display: flex;
+
+
+}
+.inputs {
+    width: 100%;
+}
+/**
+СТИЛИ ДЛЯ НАРМАЛЬНОГО ОТОБРАЖЕНИЯ СООБЩЕНИЙ В DIALOGS!!!
+ */
+
+
+/*ПРОБНИК*/
+/*.chat{*/
+/*    width: 1000px;*/
+/*}*/
+
+/*.chat ul > li{*/
+/*    border-top: 1px solid #cfdae1;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+/*.me{*/
+/*    background: #e4eaee;*/
+/*    left: 3px;*/
+/*}*/
+
+/*.name{*/
+/*    padding: 14px;*/
+/*    text-align: right;*/
+/*    width: 100px;*/
+/*    float: left;*/
+/*    color: #222221;;*/
+/*    font-weight: bold;*/
+/*    line-height: 20px;*/
+/*}*/
+/*.message{*/
+/*    padding: 14px;*/
+/*    border-left: 1px solid #cfdae1;*/
+/*    float: left;*/
+/*    color: #333f4d;*/
+/*    width: 214px;*/
+/*}*/
+/*.chat ul .message > p{*/
+/*    line-height: 20px;*/
+/*}*/
+/*.blue{*/
+/*    background: #6ea0ff;*/
+/*    color: #fff;*/
+/*    padding: 0 5px;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.msg{*/
+/*    top:16px;*/
+/*    right: 15px;*/
+/*    color: #738ba3;*/
+/*    font-size: 9px;*/
+/*}*/
