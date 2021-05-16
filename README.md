@@ -4,4 +4,4 @@
 
 
 # React-Kamasutra
-# ver 1.2 Работс с компонентой USERS, получение данных с API (REST API - get/post/delete запросы)!!!
+# ver 1.2 Работа с компонентой USERS, получение данных с API (REST API - get/post/delete запросы)!!!
