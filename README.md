@@ -1,7 +1,7 @@
 
-![Header](http://static1.1.sqspcdn.com/static/f/451085/25612865/1414956357880/Screen+Shot+2014-11-02+at+2.21.07+PM.png?token=yYSXmGK9TuhU3UPLVWLwh09u7%2F8%3D)
+![Header](https://api.parserdata.ru/uploads/s/w/2/v/w2v68xk2vpap/img/full_qcmpKAhI.jpg)
 
 
 
 # React-Kamasutra
-Здесь создаётся будущее, социальная сеть для конкуренции с Дуровым и Цукербергом!!!
+# ver 1.2 Работа с компонентой USERS, получение данных с API (REST API - get/post/delete запросы)!!!
