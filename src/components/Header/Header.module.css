@@ -1,0 +1,36 @@
+.header {
+    grid-area: h;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img {
+    width: 260px;
+    height: 70px;
+
+}
+
+.brandLogo {
+    width: 50px;
+    height: 50px;
+
+}
+
+.loginBlock a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border:solid 1px #DDDDDD;
+    background-color: gold;
+}
+
+.loginBlock {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border:solid 1px #DDDDDD;
+    background-color: gold;
+}
