@@ -1,0 +1,17 @@
+.myBlock {
+    padding: 10px;
+
+}
+.title {
+    margin: 0;
+}
+.posts {
+    margin-top: 5px;
+}
+
+.muiButton{
+    color: #fff;
+    background-color: #3f51b5;
+    margin-right: 10px;
+    display: inline-block;
+}

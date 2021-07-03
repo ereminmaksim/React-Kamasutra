@@ -1,0 +1,81 @@
+/*ОБЩЕЕ ПОВЕДЕНИЕ*/
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    width: 1000px;
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 50%;
+}
+
+
+/*С КЕМ?*/
+.dialogs_items{
+    padding: 10px;
+
+}
+.dialogs_items a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.dialogs_items .active {
+    color: gold;
+}
+.dialogs_items a:hover {
+    color: white;
+}
+
+.dialogs_items img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dialog {
+   padding: 10px;
+}
+
+/*ЧТО Я ПИШУ*/
+.messages {
+    padding: 10px;
+    color: black;
+    margin-top: 17px;
+}
+
+.message  {
+    padding: 11px;
+    text-decoration: none;
+    margin-top: 32px;
+
+}
+
+.container {
+    border: 3px solid #dedede;
+    background-color: #6eb0f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #f7eeee;
+}
+.wrapper{
+    display: flex;
+
+
+}
+.inputs {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
