@@ -1,0 +1,71 @@
+.dialogs_items img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.wrapper {
+    padding: 25px 200px 0px 25px;
+}
+
+.expansion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.dialog {
+    display: inline-block;
+    margin-bottom: 5px
+
+}
+
+.selectedPage{
+    font-weight: bold;
+    /*font-size: 20px;*/
+    cursor: pointer;
+
+
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    width: 40px;
+    height: 40px;
+    color: black;
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    border:solid 1px #DDDDDD;
+    margin-right:3px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+
+
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
